@@ -1,0 +1,285 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+.covid_sec{
+    display:flex;
+   
+    justify-content: space-around;
+    
+     align-items: center;
+    background: linear-gradient( to right,#600d75,rgb(53, 122, 201));
+    
+}
+.covid_text{
+    font-size:15px ;
+    color:white;
+    padding:10px 5px 10px 5px;
+   
+}
+.avail_text{
+    font-size:17px ;
+    color:white;
+
+}
+.avail_text::before{
+    content:"Avail now <<"
+}
+.avail_text::after{
+    content:"";
+    height:2px;
+    background-color:white ;
+    display:block;
+    width:100%;
+
+}
+.close{
+    border:none;
+    outline:none;
+    padding:5px;
+    color:white;
+    
+}
+.nav-btn{
+    background-color: blue;
+    color:white;
+    padding:5px 10px ;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-item{
+padding:5px 15px;
+text-align: center;
+text-transform: uppercase;
+color:black;
+font-weight: bolder;
+font-size: 12px;
+}
+.header_text{
+    color:blue;
+    padding: 0px 5px;
+    font-weight:bold ;
+}
+.header_text::before{
+    content:"Research Publication";
+    color:black;
+    font-weight: bold;
+    line-height:40px ;
+    display:block;
+    font-size:25px ;
+
+}
+.header_text::after{
+    content:"2,000+ native English editors. 1,300+ subjects of expertise. Your publication success is our mission";
+    color:black;
+    font-weight:normal ;
+    display:block ;
+    line-height:40px ;
+    font-size: 14px;
+    }
+.header .col-md-5, .header .col-md-11{
+    background-color:white;
+    text-align: center;
+    box-shadow:0px 0px 8px 1px rgb(187, 187, 187) ;
+    border-radius:5px ;
+    padding:15px;
+    border:1px solid grey;
+    height:60px;
+    margin-bottom:25px ;
+    margin-right:25px ;
+    display:flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+}
+.header .col-md-5 p, .header .col-md-11 p{
+    margin-bottom: 0px;
+}
+.header_b_t1{
+    margin-top: 60px;
+}
+.header_b_t1 h3{
+color:blue;
+font-weight: 800;
+}
+.header_b_t1 h5{
+    font-weight: 800;
+}
+.header_b_t1 h6{
+    color:grey;
+}
+.blue_div{
+    background-color: rgb(11, 11, 95);
+    margin-top:60px ;
+    padding:30px 5px 5px 20px;
+}
+.blue_h{
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+}
+.blue_h::before{
+    content:"HELLO! WE ARE EDITAGE!";
+    font-size:10px ;
+    display:block;
+    color:white;
+    font-weight: 700;
+    line-height:30px ;
+    
+}
+.blue_div h6{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.blue_2h{
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+.blue_2h::before{
+    content:"";
+    height:2px;
+    width:300px;
+    background-color:white ;
+     display:inline-block
+}
+.blue_2h::after{
+    content:"";
+    height:2px;
+    width:300px;
+    background-color:white ;
+    display: inline-block;
+    
+}
+.blue_3h{
+    color:white;
+   font-size:12px ;
+   font-style: italic;
+    text-align: center;
+    margin-top:30px ;
+}
+.blue_3h::before{
+    content:'"';
+    display:inline-block;
+    color:white;}
+
+.blue_3h::after{
+        content:'"';
+       display:inline-block;
+        color:white;}
+.list_smll_pt{
+   display:flex;
+  
+   justify-content:center; 
+}
+.list_smll_pt li{
+    color:grey;
+    font-size: 13px;
+    padding:5px;
+}
+.sec_h{
+    color:black;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+}
+ .sec_2h{
+     color:black;
+     font-weight: 900;
+     font-size:20px ;
+     padding:5px;
+     margin-bottom: 0px;
+    
+ } 
+ .sec_2h::before{
+     content:"GETTING YOU PUBLISHED";
+     text-transform: uppercase;
+     font-size: 13px;
+     display: block;
+     color:blue;
+     font-weight:500;
+ }
+ .sec_3h{
+     color:gray;
+     font-size:14px ;
+     text-align: justify;
+     padding:5px;
+     line-height:30px ;
+ }  
+.img_con{
+    background-image: url("./assets/editechimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_div1 .row{
+ margin-bottom: 50px;
+}
+.blue_4h{
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.custom_col{
+    width:240px;
+    margin:5px 15px;
+    border-radius:5px ;
+    
+    
+}
+.c_band{
+    box-shadow:0px 0px 8px 1px rgb(184, 183, 183) ;
+    display:flex;
+    justify-content:space-between ;
+}
+.text_part{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 30px 20px 30px;
+}
+.persona_div{
+    margin-top:60px ;
+
+}
+.circle{
+    height:150px;
+    width:150px;
+    border:1px solid black;
+    border-radius: 50%;
+    position:absolute;
+}
+.persona_div h3{
+    text-align: center;
+    font-weight: 500;
+    line-height:40px ;
+}
+.persona_div h6{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.promise_div .row{
+    display:flex;
+    justify-content:center;
+
+}
