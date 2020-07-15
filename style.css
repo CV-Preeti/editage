@@ -447,7 +447,7 @@ justify-content: center;
     box-shadow: 0px 0px 8px 1px rgb(167, 167, 167) ;
     margin-top:40px ;
 }
-.trusted_div .col-md-4{
+.trusted_div .col-md-4,.trusted_div .col-md-3{
     padding:10px 20px;
 }
 .border_lr{
@@ -467,5 +467,21 @@ justify-content: center;
 }
 .ex_h::after{
     content:">>";
-    
+
+}
+/*footer_col{
+    padding:20px 20px 20px 40px;
+   
+}*/
+
+.footer_col ul{
+    list-style: none;
+    color:white;
+
+}
+.footer_col ul li{
+    margin-bottom:10px ;
+    font-size:13px ;
+    font-weight: 400;
+    opacity:0.8;
 }
