@@ -41,6 +41,10 @@
     color:white;
     
 }
+.navbar{
+   background-color:white ;
+    
+}
 .nav-btn{
     background-color: blue;
     color:white;
@@ -244,6 +248,7 @@ font-weight: 800;
     box-shadow:0px 0px 8px 1px rgb(184, 183, 183) ;
     display:flex;
     justify-content:space-between ;
+    background-color:white ;
 }
 .text_part{
     display:flex ;
@@ -257,29 +262,151 @@ font-weight: 800;
 
 }
 .circle{
-    height:150px;
-    width:150px;
-    border:1px solid black;
+    height:120px;
+    width:120px;
+    border:3px solid blue;
     border-radius: 50%;
     position:absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top:-30px ;
 }
 .persona_div h3{
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     line-height:40px ;
+    margin-top: 100px;
 }
 .persona_div h6{
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 30px;
+   font-weight: 400;
+    color:gray;
 }
+.persona_div h6 a::after{
+    content:"<<";
+    color:blue;
+    display:inline-block;
+}
+.persona_div .col-md-12, .persona_div .col-md-6{
+    box-shadow:0px 0px 8px 1px rgb(180, 180, 180) ;}
+    
+.persona_div .col-md-6, .persona_div .col-md-5{
+    margin:5px 15px;
+    border:1px solid black;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    border:1px solid black;
+}
+.icon_fr_text h5{
+ color:black;
+ font-weight: 800;
+ text-align: left;
+ margin:20px 20px 5px 20px;
 
-
-
-
-
+}
+.icon_fr_text p{
+    color:gray;
+    font-weight:400 ;
+    text-align: left;
+    margin:0px 20px 30px 20px;
+    line-height: 25px;
+}
+.how_it_wrk{
+    margin-top:60px ;
+    background-color:rgba(204, 203, 203, 0.3); }
 
 .promise_div .row{
     display:flex;
     justify-content:center;
+}
+.t_stuff{
+    
+    margin:20px;
+} 
+.blue_div .col-md-4{
+    display:flex;
+    justify-content: center;
+}
+.c_2band{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.c_b{
+    height:50px;
+    width:10px;
+    background-color: rgb(221, 79, 197);
+    margin-right:10px ;
+    border:1px solid black;}
+.diff_h_div{
+    margin-top:60px ;
+}
+.holder{
+    margin:10px;
+    padding-bottom: 40px;
+    box-shadow:0px 0px 5px 1px rgb(173, 173, 173); 
+    border-radius: 10px;
+   
+}
+.top_holder{
+    background-color:white;
+    padding:10px;
+    border-radius:10px 10px 0px 0px ;
+    
+
+}
+.top_holder_h{
+    color:black;
+    text-align: center;
+    font-weight: 800;
+    margin:10px 0px;
+}
+.top_holder_h::before{
+    content:"TO HELP YOU";
+    color:blue;
+    font-size: 12px;
+    font-weight: 500;
+    display:block;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.holder .p1{
+    text-align: center;
+    color:blue;
+    font-size:12px ;
+    font-weight: 500 ;
+    margin:30px 0px;
+    text-transform: uppercase;
+}
+.holder .p2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color:black;
+    margin:10px 0px;
+}
+.btn_wrapper{
+margin:30px 10px;
+display:flex;
+justify-content: center;
+}
+.btn1{
+    margin:5px 20px;
+    border:1px solid blue;
+    color:blue;
+    padding:10px 30px;
+    border-radius:5px ;
+}
+.btn2{
+    margin:5px 20px;
+    color:white;
+    background-color:blue;
+    border:none;  outline:none;
+    border-radius:5px ;
+    padding:10px 30px;
 
 }

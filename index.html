@@ -12,6 +12,23 @@
   <link rel="stylesheet" href="style.css">
   <title>New Project</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script>$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 30) {
+          
+          $(".navbar").css('box-shadow' ," 0px 0px 1px 2px rgb(187, 187, 187)");
+        }
+  
+        else{
+           
+            $(".navbar").css('box-shadow' ,"none"); 	
+        }
+    });
+  });
+  
+</script>
 </head>
 
 <body>
@@ -26,7 +43,7 @@
     <button class="close" > &times;</button>
   </div>
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <a class="navbar-brand" href="#" style="margin-left:40px ;">Editage</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -196,11 +213,16 @@
      </div>
 
 </section>
+
+
 <div class="blue_div">
   <h2 class="blue_4h">At Editage,<br>
     we don’t believe in one-time transactions. We believe in forging relationships.</h2>
 </div>
-<section style="margin-top: 60px;">
+
+
+
+<section style=" background-color:rgba(204, 203, 203, 0.3) ;padding:60px 20px;">
   <div class="container promise_div ">
     <div class="row ml-0 mr-0">
  <div class="custom_col">
@@ -238,29 +260,189 @@
 <!-- half part finish-->
 <!--personalised  support-->
 <div class="container persona_div">
-  <div class="row">
+  <h2 class="sec_h" style="margin:30px 0px ;">Personalised support, local teams </h2>
+  <div class="row" style="margin-top:100px ; justify-content: center;">
     
-    <div class="col-md-6">
+    <div class="col-md-6" ">
       <div class="circle"></div>
       <h3>Support in your local language </h3>
       <h6>Get dedicated support in your local language
-         & English from our team of experienced support professionals based out of all over world</h6>
-         <h6 style="color:blue;"> <a>Meet our Super  <<</a></h6>
+         & English from our<br> team of experienced support professionals based out of all over world</h6>
+         <h6 style="color:blue;"> <a href="#">Meet our Super star</a></h6>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
       
-      <div class="row">
+      <div class="row"
+       style="height:100%; align-items: center;">
         <div class="col-md-12">
-      
+      <div class="row ml-0 mr-0">
+        <div class="icon">
+
+        </div>
+        <div class="icon_fr_text">
+          <h5>Easy payment options</h5>
+          <p>Pay in your local currency or through your preferred bank. No hidden charges.</p>
+        </div>
+      </div>
         </div>
         <div class="col-md-12">
-      
+          <div class="row ml-0 mr-0">
+            <div class="icon">
+    
+            </div>
+            <div class="icon_fr_text">
+              <h5>Easy payment options</h5>
+              <p>Pay in your local currency or through your preferred bank. No hidden charges.</p>
+            </div>
+          </div>
         </div>
      
     </div>
   </div>
   
 </div></div>
+
+<!---personalised part finish-->
+<section class="how_it_wrk">
+<h2 class=" sec_h" style="padding:30px 0px;">How it works</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-5"  style="border:1px solid blue; border-radius: 10px;">
+
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-6 icon_fr_text">
+      <h5><span style="color:blue;font-weight: 500; font-size:13px ; padding:5px;">
+      01.</span> Place an order</h5>
+              <p style="margin-left:50px ;"> Select your preferred plan, price and timeline</p>
+   
+    
+      <h5><span style="color:blue;font-weight: 500; font-size:13px ; padding:5px;">
+      02.</span> Place an order</h5>
+              <p  style="margin-left:50px ;">Select your preferred plan, price and timeline</p>
+    
+      <h5><span style="color:blue;font-weight: 500; font-size:13px ; padding:5px;">
+      03.</span> Place an order</h5>
+              <p  style="margin-left:50px ;">Select your preferred plan, price and timeline</p>
+    
+      <h5><span style="color:blue;font-weight: 500; font-size:13px ; padding:5px;">
+     04. </span> Place an order</h5>
+              <p  style="margin-left:50px ;">Select your preferred plan, price and timeline</p>
+    </div>
+  </div>
+</div>
+
+<h2 class="sec_h" style="margin-top: 100px; font-weight:700 ;">Editage Benefits</h2>
+<div class="container" style="background-color:rgb(11, 11, 95);margin-top: 60px;">
+  <div class="row">
+    <div class="col-md-4 ">
+<div class="t_stuff">
+  <h1  style="font-weight: 300;color:white">8 Hour </h1>
+  <h5 style="font-weight: 800;color:white;" >Express delivery</h5>
+  <div class="c_2band" >
+    <div class="c_b"></div>
+  <div>
+    <h6 style="color:white;opacity:0.7;font-weight: 300;">
+      Working on a strict deadline? Get your documents edited in as fast as 8 hours.</h6> 
+</div></div>
+
+</div>
+    </div>
+    <div class="col-md-4">
+      <div class="t_stuff">
+        <h1  style="font-weight: 300;color:white">8 Hour </h1>
+        <h5 style="font-weight: 800;color:white;" >Express delivery</h5>
+        <div class="c_2band" >
+          <div class="c_b"></div>
+        <div>
+          <h6 style="color:white;opacity:0.7;font-weight: 300;">
+            Working on a strict deadline? Get your documents edited in as fast as 8 hours.</h6> 
+      </div></div>
+      
+      </div> 
+
+    </div>
+    <div class="col-md-4">
+      <div class="t_stuff">
+        <h1  style="font-weight: 300;color:white">8 Hour </h1>
+        <h5 style="font-weight: 800;color:white;" >Express delivery</h5>
+        <div class="c_2band" >
+          <div class="c_b"></div>
+        <div>
+          <h6 style="color:white;opacity:0.7;font-weight: 300;">
+            Working on a strict deadline? Get your documents edited in as fast as 8 hours.</h6> 
+      </div></div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<!--second blue div on home page finish-->
+<h2 class="sec_h" style="margin-top:100px ; font-weight: 700;">
+  By your side throughout your publication journey</h2>
+<div class="diff_h_div container">
+<div class="row">
+  <div  class="col-md-3 p-0">
+<div class="holder">
+<div class="top_holder">
+  <h6 class="top_holder_h">Choose a Journal</h6>
+</div>
+<p class="p1">WE OFFER</p>
+<p class="p2">Journal Selection </p>
+</div>
+  </div>
+  <div  class="col-md-3 p-0">
+    <div class="holder">
+      <div class="top_holder">
+        <h6 class="top_holder_h">Choose a Journal</h6>
+      </div>
+      <p class="p1">WE OFFER</p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      </div>
+
+
+
+  </div>
+  <div  class="col-md-3 p-0">
+    <div class="holder">
+      <div class="top_holder">
+        <h6 class="top_holder_h">Choose a Journal</h6>
+      </div>
+      <p class="p1">WE OFFER</p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      </div>
+
+  </div>
+  <div  class="col-md-3 p-0">
+    <div class="holder">
+      <div class="top_holder">
+        <h6 class="top_holder_h">Choose a Journal</h6>
+      </div>
+      <p class="p1">WE OFFER</p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      <p class="p2">Journal Selection </p>
+      </div>
+
+  </div>
+
+</div>
+
+</div>
+<div class="btn_wrapper">
+  <button class="btn1"> view all service</button>
+  <button class="btn2">Get Qoute</button>
+</div>
+
+</section>
+
 
 
 
