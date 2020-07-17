@@ -42,7 +42,7 @@
     
 }
 .navbar{
-   background-color:white ;
+   background-color:transparent ;
     
 }
 .nav-btn{
@@ -117,7 +117,7 @@ font-weight: 800;
     color:grey;
 }
 .blue_div{
-    background-color: rgb(11, 11, 95);
+    background-color: #E5B3FE ;
     margin-top:60px ;
     padding:30px 5px 5px 20px;
 }
@@ -423,7 +423,7 @@ justify-content: center;
 }
 .head{
     padding:10px;
-    background-color: blueviolet;
+    background-color: #E5B3FE;
     border-radius: 10px 10px 0px 0px;
     margin-bottom:20px ;
 }
@@ -552,7 +552,7 @@ justify-content: center;
        padding:5px 20px;
    }
    .hover_bg2:hover{
- background-color:rgba(34, 95, 148, 0.9) ;
+ background-color:#E5B3FE ;
    }
    .p_col1:hover,.p_col_why:hover{
        color:blue;
