@@ -487,7 +487,7 @@ justify-content: center;
 }
 .hover_div{
     
-   
+    width:70vw;
     box-shadow:0px 0px 8px 1px rgb(182, 181, 181) ;
     
 }
@@ -497,24 +497,24 @@ justify-content: center;
 .row1{
     display:flex;
     width:100%;
+    flex-wrap: wrap;
     
 }
 .row1 .col{
     width:33.33%;
     flex:0 0 33.33%;
     padding:10px 10px 10px 20px;
+   
     
 }
+
 .carousel {
-   
-    border-left: 1px solid gray;
-    height:102%;
-    padding:0px 20px ;
-    border-right:1px solid gray; 
+    padding:0px 20px ;}
     
-
-  }
-
+.partner_div .col-md-9{
+    border-left: 1px solid gray;
+    border-right:1px solid gray; 
+}
 
   
   .carousel-cell {
@@ -526,11 +526,38 @@ justify-content: center;
     border-radius: 10px;
     counter-increment: carousel-cell;
   }
+  .cell2{
+      height:100%;
+      width:100%;
+      margin:0px;
+  }
   .hover_bg{
       padding-top: 10px;
       border-radius: 3px;
+      padding-left:10px ;
   }
-   .p_col1{font-size:13px ; font-weight: 800; margin-bottom: 5px;}
+
+ 
+  .dropdown:hover .dropdown-menu{
+      display:block;
+      transition:all 1s ease ;
+  }
+   .p_col1
+   {font-size:13px ; font-weight: 800; margin-bottom: 5px;}
+   .p_col_why{
+    font-size:13px ; font-weight: 700; text-align: center; 
+    
+   }
+   .hover_bg2{
+       padding:5px 20px;
+   }
+   .hover_bg2:hover{
+ background-color:rgba(34, 95, 148, 0.9) ;
+   }
+   .p_col1:hover,.p_col_why:hover{
+       color:blue;
+       padding-bottom:10px ;
+   }
    .hover_bg:hover .p_col1 ,.hover_bg:hover .p_col2{
  color:blue;
    }
@@ -538,7 +565,14 @@ justify-content: center;
     font-size:12px ;color:black ; margin-bottom: 5px;  
    }
    .hover_bg:hover{
-       background-color: rgb(182, 181, 181,0.6);
+       background-color: rgba(201, 201, 201, 0.5);
+   }
+
+
+   @media screen and (max-width:900px){
+       .hover_div{
+           width:100vw;
+       }
    }
   
   
