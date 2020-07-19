@@ -146,5 +146,36 @@ body{
     padding:5px;
 
 }
+/* card styling start*/
+ul
+{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.card {
+    
+    border:none;
+    margin:10px;
+    
+}
 
+.img-hover-zoom {
+    overflow: hidden;
+  }
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+ 
+  
+  .icon
+  {font-size:30px;
+    }
+  /* card styling finish*/
 
