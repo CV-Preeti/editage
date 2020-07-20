@@ -190,6 +190,10 @@ font-weight: 800;
     font-size: 13px;
     padding:5px;
 }
+.list_smll_pt li::marker{
+    color:blue;
+    padding:5px;
+}
 .sec_h{
     color:black;
     font-weight: 800;
@@ -444,7 +448,7 @@ justify-content: center;
 
 }
 .trusted_div  .container{
-    box-shadow: 0px 0px 8px 1px rgb(167, 167, 167) ;
+    box-shadow: 0px 0px 8px 1px rgb(177, 176, 176);;
     margin-top:40px ;
 }
 .trusted_div .col-md-4,.trusted_div .col-md-3{
@@ -485,12 +489,7 @@ justify-content: center;
     font-weight: 400;
     opacity:0.8;
 }
-.hover_div{
-    
-    width:70vw;
-    box-shadow:0px 0px 8px 1px rgb(182, 181, 181) ;
-    
-}
+
 .hover_a:hover .hover_div{
     display:block;
 }
@@ -571,11 +570,32 @@ justify-content: center;
     padding:25px 60px;
    }
 
+   .ul-flexdiv{
+    display:flex;
+     justify-content: space-between;
+      margin-right:40px ; width:100%;
+  
+    }
+    .hover_div{
+      
+      width:70vw;
+      box-shadow:0px 0px 8px 1px rgb(182, 181, 181) ;
+      
+  }
+    @media screen and (max-width:977px){
+      .ul-flexdiv{
+        flex-direction: column;
+      }
+      .hover_div{
+        width:100%;
+      }
+      .nav-item{
+        padding:0px;
+      }
+    }
 
    @media screen and (max-width:900px){
-       .hover_div{
-           width:100vw;
-       }
+       
        .meet_div .container{
            padding:0px;
            max-width:100%;
